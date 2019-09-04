@@ -1,0 +1,56 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	background-image: url(space.png);
+	height: 100vh;
+	width: 100000%;
+	background-size: cover;
+	background-position: center;
+}
+
+.back
+{
+	 background-color: red;
+  border: none;
+  color: white;
+  padding: 9px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 2px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  transform: translate(0%, 0%)
+}
+
+.back:hover
+{
+	background-color: #333333
+}
+
+.back:active
+{
+	background-color: #333333
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+.back:focus
+{
+	outline: 0;
+}
+
+
+
+
+
+
+
+
+
